@@ -2,4 +2,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 24pt;
+    margin-bottom: 0;
+}
+
+address {
+    white-space: pre-line;
+    text-align: center;
 }
