@@ -23,8 +23,8 @@ address {
     text-align: center;
 }
 .grid-container {
-    display: -webkit-inline-box;
-    grid: 150px/ auto auto auto;
+    display: -webkit-flex;
+    grid: 150px/ 50px 100px;
     grid-gap: 10px;
     padding: 20px;
 }
@@ -33,6 +33,7 @@ address {
     align-items: center;
     flex-direction: column;
     padding-left: 10px;
+    position: relative;
 }
 .grid-container > div > img {
     border-radius: 50%;
@@ -47,5 +48,12 @@ address {
 
 .column {
     flex-direction: column;
+}
+
+.footer {
+    font-size: 14pt;
+    white-space: pre-line;
+    margin: 20px;
+    text-align: center;
 }
   
